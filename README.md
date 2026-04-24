@@ -2,18 +2,18 @@
 
 A machine learning web app that classifies emails as **Spam** or **Ham (Legitimate)** using Logistic Regression + TF-IDF, trained on the Enron Email Dataset.
 
-**Live App →** *(add your Streamlit Cloud URL here after deploying)*
+**Live App →** *(https://email-spam-classification-model-wbsdlkm6xczkutvhq9kye6.streamlit.app/)*
 
 ---
 
-## 🚀 Features
+##  Features
 - Single email prediction with confidence scores
 - Batch CSV upload & classification with downloadable results
 - Clean, modern UI with dark header and color-coded results
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 | Metric | Score |
 |--------|-------|
 | Accuracy | ~98.5% |
@@ -24,7 +24,7 @@ A machine learning web app that classifies emails as **Spam** or **Ham (Legitima
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 ```
 spam_app/
 ├── app.py               # Streamlit app
@@ -37,7 +37,7 @@ spam_app/
 
 ---
 
-## ⚙️ Setup & Run Locally
+## Setup & Run Locally
 
 ### 1. Clone the repo
 ```bash
@@ -63,7 +63,7 @@ streamlit run app.py
 
 ---
 
-## ☁️ Deploy on Streamlit Cloud
+##  Deploy on Streamlit Cloud
 
 1. Push this repo to GitHub (**include model.pkl and tfidf.pkl**)
 2. Go to [share.streamlit.io](https://share.streamlit.io)
